@@ -1,0 +1,8 @@
+[core]
+	editor = \"C:\\Users\\Abelito\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = abel bazan
+	email = abelbazan51@gmail.com
+[init]
+	defaulbranch = main
+	defaultbranch = main
