@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stilos.css" />
+    <title>golomax</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  </head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="background-color: black;">
+ 
+         
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+   
+      <form class="d-flex">
+        
+<div class="flex-cabezerademenu">    
+  <div class="menu-inicio ">
+
+        <ul class="listamenu">
+          <a href="index.html" class="btn-neon">
+           <span id="span1"> <img src="./imagenes/kisspng-pizza-delivery-take-out-food-delivery-5af318f1662971.1660793115258810734185-removebg-preview.png" alt="">  </span>
+           inicio <img src="./imagenes/home.png" alt="">
+    
+             <a href="" class="btn-neon"> 
+               <span id="span1"><img src="./imagenes/kisspng-pizza-delivery-take-out-food-delivery-5af318f1662971.1660793115258810734185-removebg-preview.png" alt=""></span>
+               productos <img src="./imagenes/ubicacion.png" alt="">
+       
+               
+               <a href="" class="btn-neon"> 
+                 <span id="span1">
+                   <img src="./imagenes/kisspng-pizza-delivery-take-out-food-delivery-5af318f1662971.1660793115258810734185-removebg-preview.png" alt=""></span>
+                 carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg><img src="./imagenes/correo-de-contacto.png" alt="">
+               </a>
+     
+             
+             </ul>
+       
+      </form>
+    
+  </div>
+</nav>
+ 
+<h1>bienvenido a golomax</h1>
+
+
+<h4>ingrese sus datos para continuar</h4>
+
+<header>
+  
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-3">
+        <label for="validationCustom01" class="form-label">ingrese su nombre</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom01"
+          value="ingrese aqui"
+          required
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustom02" class="form-label">ingrese su apellido</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom02"
+          value="aca ingrese su apellido"
+          required
+        />
+        <div class="valid-feedback">Looks good!</div>
+      </div>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label"
+          >ingrese su email</label
+        >
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input
+            type="text"
+            class="form-control"
+            id="validationCustomUsername"
+            aria-describedby="inputGroupPrepend"
+            required
+          />
+          <div class="invalid-feedback">Please choose a username.</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom03" class="form-label">ingrese su direccion</label>
+        <input
+          type="text"
+          class="form-control"
+          id="validationCustom03"
+          required
+        />
+        <div class="invalid-feedback">Please provide a valid city.</div>
+      </div>
+      <div class="col-md-3">
+        <label for="validationCustom04" class="form-label">numero de casa </label>
+        <select class="form-select" id="validationCustom04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>...</option>
+        </select>
+        <div class="invalid-feedback">Please select a valid state.</div>
+      </div>
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="invalidCheck"
+            required
+          />
+          <label class="form-check-label" for="invalidCheck">
+            Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">You must agree before submitting.</div>
+        </div>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+      </div>
+    </form>
+</header>
+    <script src="./js/main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
